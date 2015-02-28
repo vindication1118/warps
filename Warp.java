@@ -27,7 +27,8 @@ public class Warp {
 		
 		return this.lastused;
 	}
-	//Sets date/time of last use
+	//Sets date/time of last use to current time
+	//when a warp gets used, this will be called
 	public void setLastUsed(){
 		Date d = new Date();
 		this.lastused = d.getTime();
